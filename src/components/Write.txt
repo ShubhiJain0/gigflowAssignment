@@ -1,0 +1,32 @@
+{showModal && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded-lg w-full max-w-lg">
+            <h2 className="text-xl font-semibold mb-4">
+              Write Job Description with AI
+            </h2>
+            <textarea
+              className="w-full border px-3 py-2 rounded h-40 mb-4"
+              placeholder="Tell AI about the job, and it'll help you write."
+            />
+            <div className="flex justify-end gap-2">
+              <button
+                onClick={() => setShowModal(false)}
+                className="px-4 py-2 rounded border border-gray-300 hover:bg-gray-100"
+              >
+                Cancel
+              </button>
+              <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                Generate
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+
+<button
+              className="mt-2 text-blue-600 text-sm underline"
+              onClick={() => setShowModal(true)}
+            >
+              ✨ Write with AI
+            </button>

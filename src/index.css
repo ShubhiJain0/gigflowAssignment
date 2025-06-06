@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.register-btn{
+  
+background: linear-gradient(90.09deg, #2784B8 0.08%, #113B52 111.82%);
+
+border-radius: 8px;
+
+}
