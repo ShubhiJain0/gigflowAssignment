@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Navigation from "./Navigation";
 function Register() {
   return (
-    <div className="w-screen h-screen flex bg-gradient-to-br from-[#FBFBFB] to-[#185170]">
+    <div className="w-screen h-screen flex bg-gradient-to-br from-[#FBFBFB] to-[#185170] overflow-hidden">
       <div className="w-1/2 h-full">
         <img
           src="image.png"
@@ -68,6 +68,7 @@ function Register() {
               Register with Google
             </button>
           </div>
+          <Navigation />
         </div>
       </div>
     </div>

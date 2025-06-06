@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-
+import Navigation from "./Navigation";
 function Register() {
   
     const [showPassword, setShowPassword] = useState(false);
@@ -99,6 +99,7 @@ function Register() {
             </button>
           </div>
         </div>
+        <Navigation />
       </div>
     </div>
   );
